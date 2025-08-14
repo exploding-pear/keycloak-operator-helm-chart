@@ -11,7 +11,8 @@ image:
   tag: ""
 
 keycloak:
-  repository: quay.io/keycloak/keycloak
+  image:
+    repository: quay.io/keycloak/keycloak
 
 livenessProbe:
   failureThreshold: 3
