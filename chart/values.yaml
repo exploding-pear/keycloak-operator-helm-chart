@@ -10,6 +10,9 @@ image:
   # Overrides the image tag whose default is the chart appVersion.
   tag: ""
 
+keycloak:
+  repository: quay.io/keycloak/keycloak
+
 livenessProbe:
   failureThreshold: 3
   path: /q/health/live
